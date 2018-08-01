@@ -17,6 +17,5 @@
     Plugin 'derekwyatt/vim-scala'             " Scala syntax
     Plugin 'morhetz/gruvbox'                  " Gruvbox colors
     Plugin 'vim-airline/vim-airline'          " Vim Airline
-    Plugin 'Valloric/YouCompleteMe'           " YouCompleteMe
 
     call vundle#end()
