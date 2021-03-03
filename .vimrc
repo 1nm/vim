@@ -30,7 +30,6 @@ set smarttab
 set softtabstop=2
 set tabstop=2
 set title
-set visualbell
 set whichwrap=b,s,h,l,<,>,[,],~
 
 nnoremap <Esc><Esc> :nohlsearch<CR><ESC>
