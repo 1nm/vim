@@ -16,6 +16,7 @@ set incsearch
 set laststatus=2
 set list
 set listchars=tab:^\ ,trail:~
+set noerrorbells
 set nowrap
 set number
 set relativenumber
@@ -31,6 +32,7 @@ set smarttab
 set softtabstop=2
 set tabstop=4
 set title
+set visualbell
 set whichwrap=b,s,h,l,<,>,[,],~
 
 nnoremap <Esc><Esc> :nohlsearch<CR><ESC>
