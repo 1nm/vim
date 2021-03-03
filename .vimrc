@@ -22,15 +22,13 @@ set number
 set relativenumber
 set ruler
 set shiftwidth=2
-set shiftwidth=4
 set showcmd
-set showmatch
 set showmatch matchtime=1
 set smartcase
 set smartindent
 set smarttab
 set softtabstop=2
-set tabstop=4
+set tabstop=2
 set title
 set visualbell
 set whichwrap=b,s,h,l,<,>,[,],~
