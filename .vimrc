@@ -19,7 +19,6 @@ set listchars=tab:^\ ,trail:~
 set noerrorbells
 set nowrap
 set number
-set relativenumber
 set ruler
 set shiftwidth=2
 set showcmd
