@@ -11,7 +11,7 @@ fi
 echo "Copying .vimrc to $HOME/.vimrc"
 cp .vimrc ~/.vimrc
 echo "Copying .vimrc to $HOME/.ideavimrc"
-cp .vimrc ~/.ideavimrc
+cp .ideavimrc ~/.ideavimrc
 echo "Copying .tmux.conf to $HOME/.tmux.conf"
 cp .tmux.conf ~/.tmux.conf
 
