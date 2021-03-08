@@ -20,14 +20,14 @@ set noerrorbells
 set nowrap
 set number
 set ruler
-set shiftwidth=2
+set shiftwidth=4
 set showcmd
 set showmatch matchtime=1
 set smartcase
 set smartindent
 set smarttab
-set softtabstop=2
-set tabstop=2
+set softtabstop=4
+set tabstop=4
 set title
 set whichwrap=b,s,h,l,<,>,[,],~
 
