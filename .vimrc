@@ -33,3 +33,10 @@ set whichwrap=b,s,h,l,<,>,[,],~
 
 nnoremap <Esc><Esc> :nohlsearch<CR><ESC>
 syntax on
+
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#whitespace#mixed_indent_algo = 3
+let g:airline#extensions#whitespace#max_lines = 15000
+let g:airline#extensions#whitespace#checks = [ 'indent', 'trailing' ]
+
