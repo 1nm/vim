@@ -29,6 +29,16 @@ if [ ! -d ~/.vim/pack/packages/start/fzf ]; then
     git clone https://github.com/junegunn/fzf.vim.git ~/.vim/pack/packages/start/fzf.vim
 fi
 
+# indent lines
+if [ ! -d ~/.vim/pack/vendor/start/indentLine ]; then
+    git clone https://github.com/Yggdroot/indentLine.git ~/.vim/pack/vendor/start/indentLine
+    vim -u NONE -c "helptags  ~/.vim/pack/vendor/start/indentLine/doc" -c "q"
+fi
+
+# kotlin vim
+if [ ! -d ~/.vim/pack/plugins/start/kotlin-vim ]; then
+    git clone https://github.com/udalov/kotlin-vim.git ~/.vim/pack/plugins/start/kotlin-vim
+fi
 
 if [ ! -d ~/.tmux/plugins/tpm ]; then
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
