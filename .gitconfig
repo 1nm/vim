@@ -1,0 +1,22 @@
+[user]
+	name = 1nm
+	email = 1nm@users.noreply.github.com
+	signingkey = F0701BFA88C68193
+[credential]
+	helper = store
+[push]
+	default = simple
+[core]
+	editor = vim
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+	tool = vimdiff
+[mergetool]
+	prompt = false
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
