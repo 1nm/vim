@@ -52,6 +52,6 @@ cat .ideavimrc-inc >> ~/.ideavimrc
 echo "Copying .tmux.conf to $HOME/.tmux.conf"
 cp .tmux.conf ~/.tmux.conf
 echo "Copying .gitconfig to $HOME/.gitconfig"
-cp .tmux.conf ~/.tmux.conf
+cp .gitconfig ~/.gitconfig
 
 echo "Done"
