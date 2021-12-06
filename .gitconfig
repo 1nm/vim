@@ -8,6 +8,8 @@
 	default = simple
 [core]
 	editor = vim
+	autocrlf = false
+	eol = lf
 [diff]
 	tool = vimdiff
 [difftool]
@@ -20,3 +22,5 @@
 	defaultBranch = main
 [commit]
 	gpgsign = true
+[pull]
+	ff = only
