@@ -1,3 +1,3 @@
-Usage
+## Usage
 
 Run `install.sh`
