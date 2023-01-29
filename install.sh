@@ -54,4 +54,12 @@ cp .tmux.conf ~/.tmux.conf
 echo "Copying .gitconfig to $HOME/.gitconfig"
 cp .gitconfig ~/.gitconfig
 
+
+echo "Installing fzf"
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
+echo "Installing pyenv"
+curl https://pyenv.run | bash
+
 echo "Done"
